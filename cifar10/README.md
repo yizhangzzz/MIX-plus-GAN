@@ -19,7 +19,7 @@ First, sample:
 ```
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32 python sampling_mixgan.py
 ```
-Secon, evaluate:
+Second, evaluate:
 
 ```
 python eval_mixgan.py
